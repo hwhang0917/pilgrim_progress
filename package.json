@@ -1,0 +1,9 @@
+{
+  "name": "pilgrim_progress",
+  "version": "1.0.0",
+  "description": "This is a integration project of Integration Seminar: The Pilgrim's Progress; creating an advertisers website.",
+  "main": "index.js",
+  "repository": "https://github.com/hwhang0917/pilgrim_progress",
+  "author": "Mark Whang <hwhang0917@gmail.com>",
+  "license": "MIT"
+}
