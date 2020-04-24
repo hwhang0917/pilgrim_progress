@@ -16,9 +16,9 @@ export default () => (
     <>
       <Header />
       <Switch>
-        <Route path="/" component={Overview} />
-        <Route path="/about" component={About} />
-        <Route path="/pilgrimage" component={Pilgrimage} />
+        <Route path="/" exact component={Overview} />
+        <Route path="/about" exact component={About} />
+        <Route path="/pilgrimage" exact component={Pilgrimage} />
         <Redirect from="*" to="/" />
       </Switch>
     </>
