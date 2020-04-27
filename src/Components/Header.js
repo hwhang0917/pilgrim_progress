@@ -21,13 +21,13 @@ const List = styled.ul`
 `;
 
 const Item = styled.li`
-  width: 50px;
+  width: 250px;
   height: 50px;
   text-align: center;
   border-bottom: 3px solid
     ${(props) => (props.current ? "#3498db" : "transparent")};
   transition: border-bottom 0.5s ease-in-out;
-  margin: 0px 10px;
+  /* margin: 0px 10px; */
 `;
 
 const StyledLink = styled(Link)`
@@ -35,6 +35,7 @@ const StyledLink = styled(Link)`
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 20px;
   &:hover {
     text-decoration: none;
     color: inherit;
@@ -45,13 +46,13 @@ export default withRouter(({ location: { pathname } }) => (
   <Header>
     <List>
       <Item current={pathname === "/"}>
-        <StyledLink to="/">Overview</StyledLink>
-      </Item>
-      <Item current={pathname === "/about"}>
-        <StyledLink to="/about">About </StyledLink>
+        <StyledLink to="/">Introduction</StyledLink>
       </Item>
       <Item current={pathname === "/pilgrimage"}>
         <StyledLink to="/pilgrimage">Pilgrimage</StyledLink>
+      </Item>
+      <Item current={pathname === "/cited"}>
+        <StyledLink to="/cited">Wroks Cited</StyledLink>
       </Item>
     </List>
   </Header>

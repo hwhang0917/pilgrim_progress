@@ -7,9 +7,9 @@ import {
 } from "react-router-dom";
 
 import Header from "./Header";
-import About from "../Routes/About";
 import Overview from "../Routes/Overview";
 import Pilgrimage from "../Routes/Pilgrimage";
+import Cited from "../Routes/Cited";
 
 export default () => (
   <Router>
@@ -17,8 +17,8 @@ export default () => (
       <Header />
       <Switch>
         <Route path="/" exact component={Overview} />
-        <Route path="/about" exact component={About} />
         <Route path="/pilgrimage" exact component={Pilgrimage} />
+        <Route path="/cited" exact component={Cited} />
         <Redirect from="*" to="/" />
       </Switch>
     </>
