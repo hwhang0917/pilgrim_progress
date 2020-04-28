@@ -5,16 +5,18 @@ const Footer = styled.footer`
   padding: 5px;
   user-select: none;
   position: fixed;
-  bottom: 0;
+  top: 0;
   right: 0;
   font-family: times;
+  z-index: 10;
 `;
 
 const StyledText = styled.h4`
   all: unset;
+  opacity: 0.8;
   display: block;
   font-weight: normal;
-  font-size: 15px;
+  font-size: 12px;
   margin-bottom: 5px;
 `;
 

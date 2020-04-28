@@ -83,11 +83,10 @@ const Divider = styled.span`
 `;
 
 const Overview = styled.p`
-  width: 100%;
+  width: 80%;
   font-size: 15px;
   opacity: 0.9;
   line-height: 1.5;
-  width: 50%;
   margin-bottom: 30px;
 `;
 
@@ -186,6 +185,17 @@ export default class extends Component {
               Progress to become second most popular book outside of the Bible.
               Allegories in the book helps people of faith to walk alongside
               with Christian in their footsteps towards the celestial city .
+              {<br />}
+              {<br />}
+              &nbsp;&nbsp; According to Glenn Hinson, a church history professor
+              indicates that John Bunayn was able to resolve crisis during his
+              spiritual journey from the experiences from the Bedford
+              congregation <StyledLink to="/cited"> (Hinson)</StyledLink>. His
+              experience is allegorically portrayed in The Pilgrim's Progress as
+              Christian meets the Comforter at the Interpreter's Hosue. These
+              experience based similitude generates a guideline to all Chrisitan
+              readers for journey of discipleship. And Bunyan's concerning
+              footnotes from Scripture strengthens this experience.
             </Overview>
             <InfoContainer>
               <Info>Some Adaptations of The Pilgrim's Progress</Info>
