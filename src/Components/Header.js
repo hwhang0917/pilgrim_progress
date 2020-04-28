@@ -52,7 +52,7 @@ export default withRouter(({ location: { pathname } }) => (
         <StyledLink to="/pilgrimage">Pilgrimage</StyledLink>
       </Item>
       <Item current={pathname === "/cited"}>
-        <StyledLink to="/cited">Wroks Cited</StyledLink>
+        <StyledLink to="/cited">Works Cited</StyledLink>
       </Item>
     </List>
   </Header>
