@@ -17,4 +17,4 @@ This is a integration project of Integration Seminar: The Pilgrim's Progress; cr
 - [Images from Unsplash](https://unsplash.com/)
 - [Favicon from Favicon.io](https://favicon.io/)
 
-#### [View Web Page](https://heesangw-pp-integration.netlify.app/)
+#### [View Web Page](https://pilgrims-progress-integration.netlify.app)
