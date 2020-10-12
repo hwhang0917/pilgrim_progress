@@ -60,10 +60,10 @@ export default class extends Component {
             <Image
               className="img-fluid"
               src="https://images.unsplash.com/photo-1570821805515-6a8ec8097274?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80"
-              alt="Wicked Gate"
+              alt="Wicket Gate"
             />
             <Carousel.Caption>
-              <Title>Wicked Gate</Title>
+              <Title>Wicket Gate</Title>
               <BibleVerse>
                 "Ask and it will be given to you; seek and you will find; knock
                 and the door will be opened to you." (Matthew 7:7)
@@ -106,7 +106,7 @@ export default class extends Component {
             />
             <Carousel.Caption>
               <Title>
-                Continue Your Fiath Journey with The Pilgrim's Progress ...
+                Continue Your Faith Journey with The Pilgrim's Progress ...
               </Title>
               <BibleVerse>
                 "This Hill, though high, I covet to ascend, The difficulty will
