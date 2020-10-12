@@ -166,14 +166,14 @@ export default class extends Component {
             </InfoContainer>
             <Overview>
               &nbsp;&nbsp;John Bunyan wrote The Pilgrim's Progress when he was
-              imporisoned in Bedfordshire for violating the
+              imprisoned in Bedfordshire for violating the
               <StyledAnchor href="https://en.wikipedia.org/wiki/Conventicle_Act_1664">
                 {" "}
                 Conventicle Act
               </StyledAnchor>
               . England during the 16th century was interconnected with advent
               of religious reformation through Luther and popularization of the
-              sripture amongst layman. As a result, it became a long lasting
+              scripture amongst layman. As a result, it became a long-lasting
               literary classic to Christians to this day
               <StyledLink to="/cited"> (Brown) </StyledLink>.{<br />}
               {<br />}
@@ -188,12 +188,12 @@ export default class extends Component {
               {<br />}
               {<br />}
               &nbsp;&nbsp; According to Glenn Hinson, a church history professor
-              indicates that John Bunayn was able to resolve crisis during his
+              indicates that John Bunyan was able to resolve crisis during his
               spiritual journey from the experiences from the Bedford
               congregation <StyledLink to="/cited"> (Hinson)</StyledLink>. His
               experience is allegorically portrayed in The Pilgrim's Progress as
-              Christian meets the Comforter at the Interpreter's Hosue. These
-              experience based similitude generates a guideline to all Chrisitan
+              Christian meets the Comforter at the Interpreter's House. These
+              experience based similitude generates a guideline to all Christian
               readers for journey of discipleship. And Bunyan's concerning
               footnotes from Scripture strengthens this experience.
             </Overview>

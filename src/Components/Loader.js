@@ -48,9 +48,6 @@ const LoadingRing = styled.div`
 
 export default () => (
   <Container>
-    <Helmet>
-      <title>Loading | Nomflix</title>
-    </Helmet>
     <LoadingRing ria-label="Loading">
       <div></div>
       <div></div>
